@@ -84,6 +84,13 @@ public class WordAdapter extends ArrayAdapter<Word>  {
             imageView.setVisibility(View.GONE);
         }
 
+//        // Set the ImageView in the play portion of the link
+//        ImageView printImageView = (ImageView) listItemView.findViewById(R.id.play);
+//        //set image view to play
+//        printImageView.setImageResource(currentWord.getImageResourceId());
+//        printImageView.setVisibility(View.VISIBLE);
+
+
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);
         // Find the color that the resource ID maps to
